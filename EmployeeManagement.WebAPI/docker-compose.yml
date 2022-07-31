@@ -1,0 +1,31 @@
+version: '3'
+services:
+  postgresdb:
+    container_name: postgresdb
+    image: postgres
+    restart: ""
+    networks:
+      - employee-network
+    environment:
+      - POSTGRES_DB=employeedb
+      - POSTGRES_PASSWORD=123456
+    volumes:
+      - employee-db-vol:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  employee-webapi:
+    container_name: employee-webapi
+    image: employee/webapi
+    ports:
+      - "8079:8079"
+    networks:
+      - employee-network
+    depends_on:
+      - postgresdb
+
+networks:
+  employee-network:
+
+volumes:
+  employee-db-vol:
