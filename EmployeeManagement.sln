@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.WebAPI", "EmployeeManagement.WebAPI\EmployeeManagement.WebAPI.csproj", "{72E45DE3-BB68-4BA4-803C-8F26AE009D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmployeeManagement.Core", "EmployeeManagement.Core", "{F6FAE940-23AD-4AF5-9FEB-1CDDF5D43FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Domain", "EmployeeManagement.Domain\EmployeeManagement.Domain.csproj", "{5403E83A-9809-40C2-BDD1-BD0CD309555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Application", "EmployeeManagement.Application\EmployeeManagement.Application.csproj", "{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmployeeManagement.Infrastructure", "EmployeeManagement.Infrastructure", "{3165BE92-6CB3-4306-9440-EA8E9AE41B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Persistence.Dapper", "EmployeeManagement.Persistence\EmployeeManagement.Persistence.Dapper.csproj", "{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E45DE3-BB68-4BA4-803C-8F26AE009D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E45DE3-BB68-4BA4-803C-8F26AE009D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E45DE3-BB68-4BA4-803C-8F26AE009D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E45DE3-BB68-4BA4-803C-8F26AE009D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5403E83A-9809-40C2-BDD1-BD0CD309555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5403E83A-9809-40C2-BDD1-BD0CD309555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5403E83A-9809-40C2-BDD1-BD0CD309555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5403E83A-9809-40C2-BDD1-BD0CD309555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5403E83A-9809-40C2-BDD1-BD0CD309555F} = {F6FAE940-23AD-4AF5-9FEB-1CDDF5D43FBA}
+		{5D8ACBC6-BD25-4BEA-AEFD-0A3E720C45FD} = {F6FAE940-23AD-4AF5-9FEB-1CDDF5D43FBA}
+		{C0D9AA34-3C37-43FA-BF5E-DADB52A07D2B} = {3165BE92-6CB3-4306-9440-EA8E9AE41B96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4926D72-8CC3-4B3F-AC46-037E9B1E8F36}
+	EndGlobalSection
+EndGlobal
